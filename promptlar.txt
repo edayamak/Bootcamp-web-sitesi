@@ -1,1 +1,39 @@
+prompt 1
+Bir frontend geliştiricisi olduğunu farz et. 
+Senden bir web sitesi kodlamanı istiyorum. 
+Şu araçları kullanarak sitesi kodlamalısın HTML, CSS ve Javascript. 
+Oluşturduğun site mobile uyumlu ve duyarlı olmalıdır. 
+Oluşturduğun sitenin stil ve düzeni açısından Bootstrap CSS sınıflarının en son sürümlerini  de içermelidir.
+Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisin.
+HTML, CSS ve Javascript kodlarını ayrı çıktılar olarak vermelisin.
+Tüm gereklilikleri anladıysan lütfen evet de.
 
+prompt 2
+Web sitesi, portfolio galeri temalı bir web sitesi ve burada film  önerilerini paylaşmak istiyorum.
+Bu sitede Html semantik etiketleri olan header, main ,nav , section,article, aside ,footer etiketlerini kullanmanı isityorum.
+Bana bu web sitesini oluşturur musun?
+
+prompt 3
+Harika! Şimdi CSS kodlarını şu yönergelere uygun olarak kodlamalısın.
+Sitenin sağ üst köşesinde siteyi tanımlayan bir logo bulunmalıdır.
+Sitenin genel renkleri pembe tonlarında ve birbiriyle uyumlu olmalıdır.
+
+prompt 4
+Harika çok iyi gidiyorsun! Şimdi de Javascript kodlarını tamamlayalım.
+Sitenin portfolio galeriye uygun olabilmesi için hareketlendirmemiz gerekmekte.
+Lütfen portfolio section'a kendiliğinden yana kayan bir slider ekler misin ?
+
+prompt 5
+Pekala eklediğim filmlerin daha güzel gözükmesini isityorum. 
+Bunun için article içerisinde yer alan resimlerin etrafına bir çerçeve ekler misin. 
+Ayrıca bu çerçevenin etrafında da kesikli çizgiler yer alsın
+
+prompt 6
+Lütfen yan menü seciton'ı hakkımda seciton'ın altına alır mısın
+
+prompt 7
+Biraz daha düzenleme yapmaya ihtiyacımız var.
+Film isimlerinin başlıklarının arka planına pembeyle uyumlu bir mor renk ekle.
+Ayrıca logo boyutunu 300x300 boyutuna getir ve sağ tarafa dayalı olarak düzenle.
+
+ 
