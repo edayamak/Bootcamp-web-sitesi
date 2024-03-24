@@ -17,6 +17,8 @@ prompt 3
 Harika! Şimdi CSS kodlarını şu yönergelere uygun olarak kodlamalısın.
 Sitenin sağ üst köşesinde siteyi tanımlayan bir logo bulunmalıdır.
 Sitenin genel renkleri pembe tonlarında ve birbiriyle uyumlu olmalıdır.
+Film isimlerinin başlıklarının arka planına pembeyle uyumlu bir mor renk ekle.
+Ayrıca logo boyutunu 300x300 boyutuna getir ve sağ tarafa dayalı olarak düzenle.
 
 prompt 4
 Harika çok iyi gidiyorsun! Şimdi de Javascript kodlarını tamamlayalım.
@@ -31,9 +33,7 @@ Ayrıca bu çerçevenin etrafında da kesikli çizgiler yer alsın
 prompt 6
 Lütfen yan menü seciton'ı hakkımda seciton'ın altına alır mısın
 
-prompt 7
-Biraz daha düzenleme yapmaya ihtiyacımız var.
-Film isimlerinin başlıklarının arka planına pembeyle uyumlu bir mor renk ekle.
-Ayrıca logo boyutunu 300x300 boyutuna getir ve sağ tarafa dayalı olarak düzenle.
+
+
 
  
