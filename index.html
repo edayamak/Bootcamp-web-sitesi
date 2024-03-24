@@ -41,18 +41,73 @@
     <section id="portfolio">
       <h2>Portföy</h2>
       <article>
-        <h3>Film Adı 1</h3>
+        <h3>The Magic Adventure</h3>
         <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
-        <img src="film1.jpg" alt="Film 1">
+        <img src="Resimler/prompt_1_afiş.png" alt="prompt_1_afiş">
       </article>
       <article>
-        <h3>Film Adı 2</h3>
+        <h3>SHE</h3>
         <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
-        <img src="film2.jpg" alt="Film 2">
+        <img src="Resimler/prompt_2_afiş.png" alt="prompt_2_afiş">
+      </article>
+      <article>
+        <h3>SPACE</h3>
+        <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
+        <img src="Resimler/prompt_3_afiş.png" alt="prompt_3_afiş">
+      </article>
+      <article>
+        <h3>The Cat and The Dog</h3>
+        <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
+        <img src="Resimler/prompt_4_afiş.png" alt="prompt_4_afiş">
+      </article>
+      <article>
+        <h3>Birds</h3>
+        <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
+        <img src="Resimler/prompt_5_afiş.png" alt="prompt_5_afiş">
+      </article>
+      <article>
+        <h3>Forest</h3>
+        <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
+        <img src="Resimler/prompt_6_afiş.png" alt="prompt_6_afiş">
+      </article>
+      <article>
+        <h3>Lonely</h3>
+        <p>Bu film hakkında kısa bir açıklama buraya gelecek.</p>
+        <img src="Resimler/prompt_7_afiş.png" alt="prompt_7_afiş">
       </article>
       
     </section>
   </main>
+  <script>
+    
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll("#portfolio article");
+    const totalSlides = slides.length;
+    let currentIndex = 0;
+  
+   
+    showSlide(currentIndex);
+  
+   
+    setInterval(nextSlide, 5000); 
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      showSlide(currentIndex);
+    }
+  
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.style.display = "block";
+        } else {
+          slide.style.display = "none";
+        }
+      });
+    }
+  });
+  
+    </script>
   
 
 <footer id="contact">
