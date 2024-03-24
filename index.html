@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Film Önerileri Portföyü</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="Resimler/logo.jpg" >
+  </div>
+  <h1>Film Önerileri Portföyü</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">Hakkımda</a></li>
+      <li><a href="#portfolio">Portföy</a></li>
+      <li><a href="#contact">İletişim</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+    <section id="about">
+      <article>
+        <h2>Hakkımda</h2>
+        <p>Benim adım Eda. Film sever ve eleştirmenim. Bu portföyde sizin için seçtiğim bazı film önerilerini bulabilirsiniz.</p>
+      </article>
+  
+      <aside>
+        <h2>Yan Menü</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Kategoriler</a></li>
+            <li><a href="#">Popüler Filmler</a></li>
+            <li><a href="#">Yeni Eklenenler</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <aside>
+        <h2>Farklı Yan Menü</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Başka Bir Öge 1</a></li>
+            <li><a href="#">Başka Bir Öge 2</a></li>
+            <li><a href="#">Başka Bir Öge 3</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <aside>
+        <h2>Farklı Yan Menü</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Başka Bir Öge 1</a></li>
+            <li><a href="#">Başka Bir Öge 2</a></li>
+            <li><a href="#">Başka Bir Öge 3</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </section>
+    
+  
+    <section id="portfolio">
+      <h2>Portföy</h2>
+      <article>
+        <h3>The Magic Adventure</h3>
+        <p>Disney yapımı bir animasyon filmi olan The Magic Adventure, izleyicilere eşsiz ve büyülü bir dünyanın kapılarını aralıyor. Film, bir grup renkli karakterin maceralarını anlatırken, izleyicilere kahkaha dolu ve unutulmaz bir deneyim sunuyor.</p>
+        <img src="Resimler/prompt_1_afiş.png" alt="prompt_1_afiş">
+      </article>
+      <article>
+        <h3>SHE</h3>
+        <p>
+          Eşsiz bir bağlılık ve dostluk temasını işleyen anime filmi, iki genç kızın sıra dışı bir dostluğunu odaklıyor. Aralarındaki güçlü bağ, yaşadıkları zorluklarla sınandıkça daha da derinleşiyor. Birbirlerine destek olurken, hayatın zorluklarına karşı birlikte mücadele ediyorlar. Film, arkadaşlığın gücünü ve birlikte yaşanan deneyimlerin değerini vurguluyor.</p>
+        <img src="Resimler/prompt_2_afiş.png" alt="prompt_2_afiş">
+      </article>
+      <article>
+        <h3>SPACE</h3>
+        <p>Film, iki cyberpunk robotunun, Mars'taki yaşam mücadelesini ve keşiflerini merkeze alır. Zamanla, bu robotlar kendilerini daha fazla insanlaştırarak, insanların duygularını ve deneyimlerini anlamaya başlarlar. Ancak, Mars'taki sert koşullar ve insanlar arasındaki çatışmalar, onları bir dizi zorlu kararla karşı karşıya bırakır.</p>
+        <img src="Resimler/prompt_3_afiş.png" alt="prompt_3_afiş">
+      </article>
+      <article>
+        <h3>The Cat and The Dog</h3>
+        <p>yazın sıcak günlerinde yaşanan eğlenceli maceraları konu alıyor. Hikaye, sevimli bir kedi ve bir köpeğin dostluğunu merkeze alır. Bu ikili, sahibi yaz tatilinde evde yokken, mahallelerinde keşifler yaparlar ve çeşitli maceralara atılırlar.</p>
+        <img src="Resimler/prompt_4_afiş.png" alt="prompt_4_afiş">
+      </article>
+      <article>
+        <h3>Birds</h3>
+        <p>Bu film, farklı türlerden kuşların dostluklarını ve maceralarını anlatır. Hikaye, çeşitli yeteneklere sahip ve farklı arzuları olan bir grup kuşun, beklenmedik bir şekilde bir araya gelmesiyle başlar.</p>
+        <img src="Resimler/prompt_5_afiş.png" alt="prompt_5_afiş">
+      </article>
+      <article>
+        <h3>Forest</h3>
+        <p>İzleyicilere hüzünlü ve etkileyici bir hikaye sunan, ıssız bir ormanda geçen derinlikli bir film. Hikaye, bir grup yabancının, farklı amaçlarla aynı ormanda bir araya gelmesiyle başlar. Her biri kendi içinde bir yük taşırken, ormanın sessizliği ve doğanın güzelliği, karakterlerin ruhsal yolculuklarını etkiler.</p>
+        <img src="Resimler/prompt_6_afiş.png" alt="prompt_6_afiş">
+      </article>
+      <article>
+        <h3>Lonely</h3>
+        <p>yalnızlık ve umudu konu alan dokunaklı bir animasyon filmidir. Hikaye, dünyanın dışındaki terk edilmiş bir gezegende, yalnızca bir robotun ve onun sadık balonunun maceralarını anlatır. Robot, terk edilmiş bir laboratuvarda bir balon bulur ve bu balonu kendine arkadaş edinir.
+        </p>
+        <img src="Resimler/prompt_7_afiş.png" alt="prompt_7_afiş">
+      </article>
+
+    </section>
+  </main>
+  <script>
+    
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll("#portfolio article");
+    const totalSlides = slides.length;
+    let currentIndex = 0;
+  
+   
+    showSlide(currentIndex);
+  
+   
+    setInterval(nextSlide, 5000); 
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      showSlide(currentIndex);
+    }
+  
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.style.display = "block";
+        } else {
+          slide.style.display = "none";
+        }
+      });
+    }
+  });
+  
+    </script>
+  
+
+<footer id="contact">
+  <p>&copy; 2024 Film Önerileri Portföyü</p>
+</footer>
+
+</body>
+</html>
