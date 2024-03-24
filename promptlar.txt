@@ -1,3 +1,4 @@
+Web sitesi için promptlar---------------------------------------------------
 prompt 1
 Bir frontend geliştiricisi olduğunu farz et. 
 Senden bir web sitesi kodlamanı istiyorum. 
@@ -33,6 +34,14 @@ Ayrıca bu çerçevenin etrafında da kesikli çizgiler yer alsın
 prompt 6
 Lütfen yan menü seciton'ı hakkımda seciton'ın altına alır mısın
 
+Görseller için promptlar-----------------------------------------------------------------------
+prompt1 Bana bir film afişi vermeni istiyorum. Bu film afişinde Jim Carey bir yolculuğa çıkıyor.Bu film Disney Pixar yapımı.
+prompt2 two pink dresses girls walking on the street ,soft colors,sunny weather day,animation themed
+prompt3 two robots walking on the mars surface,purple background,cyberpunk themed
+prompt4  one black cat and one brown golden retriever playing volleyball on the beach,sunny weather day,comic book themed
+prompt5 blue and pink birds sitting on the couch,disney pixar themed
+prompt6 chaotic and pessimistic air,black and gray colors,cinematic themed
+prompt7 watercolor themed, sad and lonely robot holding balloons
 
 
 
