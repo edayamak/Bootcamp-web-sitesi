@@ -43,6 +43,13 @@ prompt5 blue and pink birds sitting on the couch,disney pixar themed
 prompt6 chaotic and pessimistic air,black and gray colors,cinematic themed
 prompt7 watercolor themed, sad and lonely robot holding balloons
 
-
+İçeriklerin promptları---------------------------------------------------------------------------
+prompt1 eşşiz eğlencelerle dolu  olan bir disney yapımı animasyon filmi var .bu filmin tanıtımını yapar mısın
+prompt2 iki kız arkadaşın arkadaşlığını anlatan bir anime filmi var bu konu hakkında birkaç cümle yazar mısın
+prompt3 2 cyberpunk robotunun marstaki hayatını konu alan bir film tanıtımı yapar mısın
+prompt4 bir kedi ve köpeğin yazın yaptıkları eğlenceleri konu alan bir film var lütfen bu filmi birkaç cümleyle açıklar mısın
+prompt5 farz et ki daha önce hiç yayınlanmamış birds adlı bir film var bu filmi bana tanıtır mısın
+prompt6 ıssız bir ormanda geçen hüzün verici bir hikayeyi konu alan bir film tanıtımı yapar mısın
+prompt7 tek başına kalmış ve yanında sadece balonu olan üzgün bir robotu konu alan bir animasyonun tanıtımını yapar mısın
 
  
